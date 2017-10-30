@@ -1,5 +1,5 @@
 aws-spot-instance-helper:
-  image: chrisurwin/aws-spot-instance-helper:v0.1.0
+  image: chrisurwin/aws-spot-instance-helper:v0.2.0
   tty: true
   labels:
     io.rancher.container.create_agent: 'true'
