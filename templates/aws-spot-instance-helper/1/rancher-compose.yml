@@ -3,7 +3,12 @@
     version: "v0.2.0"
     description: "AWS Spot Instance Helper"
     minimum_rancher_version: v1.5.5
-
+    questions:
+     - variable: "SLACK_WEBHOOK"
+       description: "Slack Webhook"
+       label: "Slack Webhook"
+       required: true
+       type: "string"
  
 aws-spot-instance-helper:
     health_check:

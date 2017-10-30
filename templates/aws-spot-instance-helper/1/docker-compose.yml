@@ -6,3 +6,5 @@ aws-spot-instance-helper:
     io.rancher.container.agent.role: environment
     io.rancher.container.pull_image: always
     io.rancher.scheduler.global: 'true'
+  environment:
+    SLACK_WEBHOOK: "${SLACK_WEBHOOK}"
