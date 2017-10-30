@@ -1,6 +1,6 @@
 .catalog:
     name: "AWS Spot Instance Helper"
-    version: "v0.1.0"
+    version: "v0.2.0"
     description: "AWS Spot Instance Helper"
     minimum_rancher_version: v1.5.5
 
